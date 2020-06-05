@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="chapters37_GIT.Ch37a_GIT">
+        <methods>
+          <include name="logOut"/>
+          <include name="VerifyHyperlinks"/>
+          <include name="verifyLaunchPage"/>
+          <include name="initialize"/>
+          <include name="enterCredentials"/>
+          <include name="showID"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- chapters37_GIT.Ch37a_GIT -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
